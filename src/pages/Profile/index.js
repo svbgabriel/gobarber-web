@@ -24,14 +24,14 @@ export default function Profile() {
         <AvatarInput name="avatar_id" />
         <Input name="name" placeholder="Nome completo" />
         <Input name="email" placeholder="Seu endereço de e-mail" />
+
+        <hr />
+
         <Input
           type="password"
           name="oldPassword"
           placeholder="Sua senha atual"
         />
-
-        <hr />
-
         <Input type="password" name="password" placeholder="Nova senha" />
         <Input
           type="password"
